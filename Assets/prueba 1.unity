@@ -123,36 +123,32 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &79757604
+--- !u!1001 &385983070
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3612513702288728735, guid: 3f2019e887cc004448163c4f75f0149e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c573f9e670a09dd49adc2b858c2a4ac3, type: 2}
     - target: {fileID: 7839917046108525754, guid: 3f2019e887cc004448163c4f75f0149e, type: 3}
       propertyPath: m_Name
       value: ESTE CUBO DEBERIA APARECER
       objectReference: {fileID: 0}
     - target: {fileID: 8507543696960011234, guid: 3f2019e887cc004448163c4f75f0149e, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8507543696960011234, guid: 3f2019e887cc004448163c4f75f0149e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.32096
+      value: 1.13
       objectReference: {fileID: 0}
     - target: {fileID: 8507543696960011234, guid: 3f2019e887cc004448163c4f75f0149e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7026032
+      value: 0.34
       objectReference: {fileID: 0}
     - target: {fileID: 8507543696960011234, guid: 3f2019e887cc004448163c4f75f0149e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.7724924
+      value: 27.789896
       objectReference: {fileID: 0}
     - target: {fileID: 8507543696960011234, guid: 3f2019e887cc004448163c4f75f0149e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -268,7 +264,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1527235475
+--- !u!1 &1213002691
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -276,8 +272,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1527235477}
-  - component: {fileID: 1527235476}
+  - component: {fileID: 1213002693}
+  - component: {fileID: 1213002692}
   m_Layer: 0
   m_Name: Celeste-Game-PNG-Background
   m_TagString: Untagged
@@ -285,13 +281,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!212 &1527235476
+--- !u!212 &1213002692
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1527235475}
+  m_GameObject: {fileID: 1213002691}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -337,21 +333,135 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &1527235477
+--- !u!4 &1213002693
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1527235475}
+  m_GameObject: {fileID: 1213002691}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.692519, y: 3.862321, z: 6.097375}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1214092789
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5523793275381676450, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_Name
+      value: ESTE POR QUE NO TE SALE AAAA (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.3939052
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.773855
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999415
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.010820795
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+--- !u!1001 &1567654469
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5523793275381676450, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_Name
+      value: ESTE POR QUE NO TE SALE AAAA
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.3939052
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.773855
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999415
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.010820795
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523793275381676462, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d3a3e5e18ea56db4ebc2096dfff87e06, type: 3}
 --- !u!1 &1875405260
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,5 +554,5 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    // Start is called before the first frame update tengo sueño
+    // Start is called before the first frame update tengo sueï¿½o, pues duerme equis de xd
     void Start()
     {
         

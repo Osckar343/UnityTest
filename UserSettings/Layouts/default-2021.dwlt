@@ -348,22 +348,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/Texturas
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Texturas
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\megah\Desktop\UnityTest
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: de570000
-    m_LastClickedID: 22494
-    m_ExpandedIDs: 00000000d857000000ca9a3b
+    m_SelectedIDs: e8570000
+    m_LastClickedID: 22504
+    m_ExpandedIDs: 00000000d8570000e857000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -418,8 +418,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000f6570000e0570000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000f6570000e0570000ac570000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -806,9 +806,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 19.650166, y: 4.996776, z: 21.299622}
+    m_Target: {x: 24.858871, y: 5.2518415, z: 18.30245}
     speed: 2
-    m_Value: {x: 19.650166, y: 4.996776, z: 21.299622}
+    m_Value: {x: 24.858871, y: 5.2518415, z: 18.30245}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -855,13 +855,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.14325818, y: 0.25464264, z: -0.038211152, w: -0.95564365}
+    m_Target: {x: -0.14136021, y: 0.26615176, z: -0.039528124, w: -0.95273286}
     speed: 2
-    m_Value: {x: -0.14325818, y: 0.25464264, z: -0.038211152, w: -0.95564365}
+    m_Value: {x: -0.13992524, y: 0.2661999, z: -0.039127193, w: -0.9529049}
   m_Size:
-    m_Target: 9.291217
+    m_Target: 4.1882153
     speed: 2
-    m_Value: 9.291217
+    m_Value: 4.3855658
   m_Ortho:
     m_Target: 0
     speed: 2
